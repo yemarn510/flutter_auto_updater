@@ -8,6 +8,7 @@ PODS:
 DEPENDENCIES:
   - auto_updater (from `Flutter/ephemeral/.symlinks/plugins/auto_updater/macos`)
   - FlutterMacOS (from `Flutter/ephemeral`)
+  - Sparkle
 
 SPEC REPOS:
   trunk:
@@ -24,6 +25,6 @@ SPEC CHECKSUMS:
   FlutterMacOS: 8f6f14fa908a6fb3fba0cd85dbd81ec4b251fb24
   Sparkle: 02038653ca2cb9b64bc68952657c28c4d4c8c75d
 
-PODFILE CHECKSUM: 236401fc2c932af29a9fcf0e97baeeb2d750d367
+PODFILE CHECKSUM: 7a2bedcc8e79d569e56c8044ffd363f1d7df724e
 
 COCOAPODS: 1.11.3

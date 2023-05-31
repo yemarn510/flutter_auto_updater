@@ -1,6 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:auto_updater/auto_updater.dart';
 
-void main() {
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  String feedURL = 'http://localhost:5002/appcast.xml';
+  await autoUpdater.setFeedURL(feedURL);
+  await autoUpdater.checkForUpdates();
+  await autoUpdater.setScheduledCheckInterval(3600);
   runApp(const MyApp());
 }
 
